@@ -1,0 +1,21 @@
+* {margin: 0; box-sizing: border-box;}
+
+body{
+    background: #FDEBD0;
+    font-family: 'Handlee', cursive;
+    color: #93572D;
+}
+
+main{
+    margin: auto 20px;
+}
+
+main p{
+    font-size: 1.0rem;
+}
+
+main h2{
+    margin: 10px 0 0 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

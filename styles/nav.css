@@ -1,0 +1,36 @@
+* {margin: 0; box-sizing: border-box;}
+
+ul.responsive{
+    display: none;
+}
+
+ul.topnav{
+    display: block;
+    width: 100%;
+    background-color: #FB969D;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #93572D;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+button{
+    background: none;
+    color: #93572D;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: none;
+    height: 30px;
+}
