@@ -1,4 +1,4 @@
-* {margin: 0; box-sizing: border-box;}
+* {margin: 0 auto; box-sizing: border-box;}
 
 ul.responsive{
     display: none;
@@ -33,4 +33,40 @@ button{
     top: 0;
     border: none;
     height: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    button{
+        display: none;
+    }
+
+    ul#topnav{
+        display: inline-flex;
+        width: 100%;
+        margin: 0 auto;
+        align-content: space-around;
+        text-align: center;
+    }
+
+    ul#topnav li{
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    ul#topnav li:hover{
+        background: rgb(251,150,157);
+        border-radius: 0 0 10px 10px;
+    }
+
+    ul#topnav li a{
+        justify-content: center;
+    }
+
+    ul#topnav li.active{
+        background: rgb(251,150,157);
+        border-radius: 0 0 10px 10px;
+    }
 }
