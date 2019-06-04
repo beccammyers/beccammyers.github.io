@@ -1,6 +1,60 @@
-* {margin: 0; box-sizing: border-box;}
+* {margin: 0 auto; box-sizing: border-box;}
 
 body{
-    background: #FDEBD0;
+    background: white;
     font-family: 'Handlee', cursive;
+    color: #93572D;
+}
+
+main h1{
+    margin: 30px auto;
+    text-align: center;
+    background: #FDEBD0;
+}
+
+div#grid-container{
+    margin: 20px auto;
+    display: inline-grid;
+    width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+div.grid-item{
+width: 90%;
+}
+
+div.grid-item p{
+    font-size: 1.2rem;
+}
+
+embed{
+    width: 400px;
+    height: 400px;
+}
+
+main{
+    margin: 10px auto 150px auto;
+    width: 1000px;
+}
+
+main p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main h2{
+    margin: 10px 0 0 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+body{
+    margin: 0 auto;
+}
+
+h2.about{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
 }
