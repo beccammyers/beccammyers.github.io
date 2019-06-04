@@ -12,7 +12,7 @@ main h1{
     background: #FDEBD0;
 }
 
-div#grid-container{
+div.grid-container{
     margin: 20px auto;
     display: inline-grid;
     width: 1000px;
