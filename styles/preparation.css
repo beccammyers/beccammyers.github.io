@@ -58,3 +58,20 @@ h2.about{
     width: 600px;
     text-align: center;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
