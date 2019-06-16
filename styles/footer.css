@@ -1,18 +1,17 @@
-footer{
+footer {
     text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     background: linear-gradient(rgba(200, 150, 100, .1), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208));
     height: 90px;
-    color: ;
     padding-top: 10px;
 }
 
-p{
+p {
     font-size: .75rem;
 }
 
-p#name{
+p#name {
     font-size: 1.0rem;
 }

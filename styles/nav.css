@@ -1,10 +1,13 @@
-* {margin: 0 auto; box-sizing: border-box;}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
-ul.responsive{
+ul.responsive {
     display: none;
 }
 
-ul.topnav{
+ul.topnav {
     display: block;
     width: 100%;
     background-color: #FB969D;
@@ -12,18 +15,18 @@ ul.topnav{
     text-align: center;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #93572D;
     list-style-type: none;
     font-weight: bold;
 }
 
-ul li{
+ul li {
     list-style-type: none;
 }
 
-button{
+button {
     background: none;
     color: #93572D;
     font-weight: bolder;
@@ -36,11 +39,11 @@ button{
 }
 
 @media only screen and (min-width: 800px) {
-    button{
+    button {
         display: none;
     }
 
-    ul#topnav{
+    ul#topnav {
         display: inline-flex;
         width: 100%;
         margin: 0 auto;
@@ -48,7 +51,7 @@ button{
         text-align: center;
     }
 
-    ul#topnav li{
+    ul#topnav li {
         width: 200px;
         height: 30px;
         text-align: center;
@@ -56,17 +59,17 @@ button{
         line-height: 30px;
     }
 
-    ul#topnav li:hover{
-        background: rgb(251,150,157);
+    ul#topnav li:hover {
+        background: rgb(251, 150, 157);
         border-radius: 0 0 10px 10px;
     }
 
-    ul#topnav li a{
+    ul#topnav li a {
         justify-content: center;
     }
 
-    ul#topnav li.active{
-        background: rgb(251,150,157);
+    ul#topnav li.active {
+        background: rgb(251, 150, 157);
         border-radius: 0 0 10px 10px;
     }
 }

@@ -1,18 +1,21 @@
-* {margin: 0 auto; box-sizing: border-box;}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
-body{
+body {
     background: white;
     font-family: 'Handlee', cursive;
     color: #93572D;
 }
 
-main h1{
+main h1 {
     margin: 30px auto;
     text-align: center;
     background: #FDEBD0;
 }
 
-div.grid-container{
+div.grid-container {
     margin: 20px auto;
     display: inline-grid;
     width: 1000px;
@@ -20,40 +23,40 @@ div.grid-container{
     grid-row-gap: 20px;
 }
 
-div.grid-item{
-width: 90%;
+div.grid-item {
+    width: 90%;
 }
 
-div.grid-item p{
+div.grid-item p {
     font-size: 1.2rem;
 }
 
-embed{
+embed {
     width: 400px;
     height: 400px;
 }
 
-main{
+main {
     margin: 10px auto 150px auto;
     width: 1000px;
 }
 
-main p{
+main p {
     font-size: 1.2rem;
     text-align: center;
 }
 
-main h2{
+main h2 {
     margin: 10px 0 0 0;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-body{
+body {
     margin: 0 auto;
 }
 
-h2.about{
+h2.about {
     margin: 0 auto;
     width: 600px;
     text-align: center;

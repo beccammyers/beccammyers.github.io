@@ -1,43 +1,46 @@
-* {margin: 0 auto; box-sizing: border-box;}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
-body{
+body {
     background: white;
     font-family: 'Handlee', cursive;
     color: #93572D;
 }
 
-main{
+main {
     margin: 10px auto 150px auto;
     width: 600px;
 }
 
-main p{
+main p {
     font-size: 1.0rem;
     text-align: center;
 }
 
-main h2{
+main h2 {
     margin: 10px 0 0 0;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-div#me{
+div#me {
     width: 100%;
     text-align: center;
 }
 
-img{
+img {
     min-width: 300px;
     height: 300px;
     margin: 10px;
 }
 
-body{
+body {
     margin: 0 auto;
 }
 
-h2.about{
+h2.about {
     margin: 0 auto;
     width: 100%;
     text-align: center;

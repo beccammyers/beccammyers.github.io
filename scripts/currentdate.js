@@ -1,4 +1,4 @@
-function setCurrentDate(){
+function setCurrentDate() {
     var currentDate = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -11,7 +11,7 @@ function setCurrentDate(){
 
     var currentDay = weekday[currentDate.getDay()];
 
-    var toDate  = currentDate.getDate();
+    var toDate = currentDate.getDate();
 
     var month = new Array(12);
     month[0] = "January";
