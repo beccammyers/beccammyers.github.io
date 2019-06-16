@@ -82,10 +82,9 @@ h2.about {
 .images{
     display: flex;
     flex-direction: column;
-    width: 90%;
 }
 
 .images img{
     width: 100%;
-    margin: 0;
+    margin: 10px 0;
 }
