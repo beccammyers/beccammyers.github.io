@@ -18,27 +18,29 @@ main h1 {
 div.grid-container {
     margin: 20px auto;
     display: inline-grid;
-    width: 1000px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    width: 300px;
     grid-row-gap: 20px;
 }
 
 div.grid-item {
     width: 90%;
+    text-align: center;
 }
 
 div.grid-item p {
     font-size: 1.2rem;
 }
 
-embed {
-    width: 400px;
-    height: 400px;
+iframe {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
 }
 
 main {
     margin: 10px auto 150px auto;
-    width: 1000px;
+    width: 300px;
 }
 
 main p {
@@ -58,7 +60,7 @@ body {
 
 h2.about {
     margin: 0 auto;
-    width: 600px;
+    width: 60%;
     text-align: center;
 }
 
@@ -87,4 +89,36 @@ h2.about {
 .images img{
     width: 100%;
     margin: 10px 0;
+}
+
+@media only screen and (min-width: 600px) {
+    div.grid-container{
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+    }
+
+    main{
+        width: 600px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    div.grid-container{
+        width: 1000px;
+    }
+
+    main{
+        width: 1000px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
 }

@@ -1,11 +1,84 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 body {
-    background: #FDEBD0;
+    background: white;
     font-family: 'Handlee', cursive;
+    color: #93572D;
+}
+
+main h1 {
+    margin: 30px auto;
+    text-align: center;
+    background: #FDEBD0;
+}
+
+div.grid-container {
+    margin: 20px auto;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    grid-row-gap: 20px;
+}
+
+div.grid-item {
+    width: 90%;
+    text-align: center;
+}
+
+div.grid-item p {
+    font-size: 1.2rem;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+main {
+    margin: 10px auto 150px auto;
+    width: 300px;
+}
+
+main p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main h2 {
+    margin: 10px 0 0 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h2.about {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
 }
 
 .images{
@@ -16,4 +89,36 @@ body {
 .images img{
     width: 100%;
     margin: 10px 0;
+}
+
+@media only screen and (min-width: 600px) {
+    div.grid-container{
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+    }
+
+    main{
+        width: 600px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    div.grid-container{
+        width: 1000px;
+    }
+
+    main{
+        width: 1000px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
 }
