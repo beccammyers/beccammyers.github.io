@@ -37,6 +37,7 @@ iframe {
     height: 300px;
     margin: 10px auto;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 main {
