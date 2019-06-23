@@ -3,13 +3,14 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: linear-gradient(rgba(200, 150, 100, .1), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208), rgb(253, 235, 208));
+    background: linear-gradient(rgba(200, 150, 100, .1), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143));
     height: 90px;
     padding-top: 10px;
+    color: black;
 }
 
 p {
-    font-size: .75rem;
+    font-size: .8rem;
 }
 
 p#name {

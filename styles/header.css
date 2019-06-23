@@ -1,5 +1,16 @@
 header {
     padding: 40px 0 20px 0;
     text-align: center;
-    background: #FB969D;
+    background-image: url(../images/Flower%20Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+header h1{
+    width: 250px;
+    height: 45px;
+    background: rgb(146,94,101);
+    color: rgb(252, 240, 244);
+    border-radius: 12px;
 }

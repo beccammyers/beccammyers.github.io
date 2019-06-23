@@ -10,16 +10,16 @@ ul.responsive {
 ul.topnav {
     display: block;
     width: 100%;
-    background-color: #FB969D;
+    background: rgb(146, 114, 118);
     padding: 15px 30px 15px 30px;
     text-align: center;
 }
 
 ul li a {
     text-decoration: none;
-    color: #93572D;
     list-style-type: none;
     font-weight: bold;
+    color: rgb(65, 43, 61);
 }
 
 ul li {
@@ -60,7 +60,7 @@ button {
     }
 
     ul#topnav li:hover {
-        background: rgb(251, 150, 157);
+        background: rgb(182, 144, 149);
         border-radius: 0 0 10px 10px;
     }
 
@@ -69,7 +69,15 @@ button {
     }
 
     ul#topnav li.active {
-        background: rgb(251, 150, 157);
+        background: rgb(182, 144, 149);
         border-radius: 0 0 10px 10px;
+    }
+
+    ul#topnav li.active a{
+        color: rgb(252, 240, 244);
+    }
+
+    ul#topnav li:hover a{
+        color: rgb(252, 240, 244);
     }
 }

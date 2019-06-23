@@ -4,15 +4,17 @@
 }
 
 body {
-    background: white;
+    background: rgb(252, 240, 244);
     font-family: 'Handlee', cursive;
-    color: #93572D;
+    color: rgb(65, 43, 61);
 }
 
 main h1 {
     margin: 30px auto;
     text-align: center;
-    background: #FDEBD0;
+    background: rgb(146,94,101);
+    border-radius: 7px;
+    color: rgb(252, 240, 244);
 }
 
 div.grid-container {
