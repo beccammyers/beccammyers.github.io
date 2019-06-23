@@ -95,6 +95,12 @@ h2.about {
     margin: 10px 0;
 }
 
+span.description{
+    font-size: 1.0rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 600px) {
     div.grid-container{
         grid-template-columns: 1fr 1fr;
