@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(252, 240, 244);
+    background: rgb(255, 255, 255);
     font-family: 'Handlee', cursive;
     color: rgb(65, 43, 61);
 }
@@ -12,7 +12,7 @@ body {
 main h1 {
     margin: 30px auto;
     text-align: center;
-    background: rgb(146,94,101);
+    background: rgb(255, 156, 177);
     border-radius: 7px;
     color: rgb(252, 240, 244);
 }

@@ -1,16 +1,16 @@
 header {
     padding: 40px 0 20px 0;
     text-align: center;
-    background-image: url(../images/Flower%20Banner.jpg);
+    background-image: url(../images/Art%20splotches.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
 }
 
-header h1{
+header #header{
     width: 350px;
     height: 45px;
-    background: rgb(146,94,101);
-    color: rgb(252, 240, 244);
+    background: rgb(216, 76, 106);
+    color: white;
     border-radius: 12px;
 }

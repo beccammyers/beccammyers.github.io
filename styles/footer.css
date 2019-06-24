@@ -3,7 +3,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: linear-gradient(rgba(200, 150, 100, .1), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143), rgb(205,171,143));
+    background: linear-gradient(rgba(200, 150, 100, .1), rgb(250, 177, 193), rgb(250, 177, 193), rgb(250, 177, 193), rgb(250, 177, 193), rgb(250, 177, 193), rgb(250, 177, 193));
     height: 90px;
     padding-top: 10px;
     color: black;
