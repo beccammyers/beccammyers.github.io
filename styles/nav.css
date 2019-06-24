@@ -60,7 +60,7 @@ button {
     }
 
     ul#topnav li:hover {
-        background: rgb(245, 129, 154);
+        background: rgb(194, 0, 0);
         border-radius: 0 0 10px 10px;
     }
 
@@ -69,15 +69,15 @@ button {
     }
 
     ul#topnav li.active {
-        background: rgb(245, 129, 154);
+        background: rgb(194, 0, 0);
         border-radius: 0 0 10px 10px;
     }
 
     ul#topnav li.active a{
-        color: rgb(252, 240, 244);
+        color: white;
     }
 
     ul#topnav li:hover a{
-        color: rgb(252, 240, 244);
+        color: white;
     }
 }
